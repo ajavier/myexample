@@ -8,11 +8,7 @@ int main() {
 
   int x = 0; // Valor inicial de x
 
-  char letra, num;
-  letra = 'A'; // equivalente a asignar el número 65
-  num = '1';   // equivalente a asignar el número 49
-
-  letra *= 2;
+  char letra = 'A';
 
   std::cout << "letra: " << letra << std::endl;
   return 0;
